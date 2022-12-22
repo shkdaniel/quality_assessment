@@ -181,11 +181,3 @@ class TestLoginRem:
         """
         self.homePage = HomePage(self.driver)
         assert self.homePage.get_home_title(TestData.HOME_PAGE_TITLE) == TestData.HOME_PAGE_TITLE
-
-    # def test_remove_profiles(self):
-    #     """
-    #     Positive test :: Verify the "Remember me" functionality when checked
-    #     Dependency on the previous test "test_login_checked_remember_me"
-    #     """
-    #     shutil.rmtree('./firefox-data')
-    #     shutil.rmtree('./chrome-data')
