@@ -35,17 +35,17 @@ export PASSWORD="<your password>"
 
 This is intended as a quick reference for starting a test environment:
 
-<img align="right" src="docs/pycharm.png">
-
 ```shell
 # In case you use Pycharm, go to Settings > Python Integrated Tools, and set pytest as a default runner
 # Or run tests in command line with logs
 pytest tests/test_Login.py -v
-```
 
-<img align="right" src="docs/report.png">
-
-```shell
 # Run tests in command line and create HTML report
 pytest tests/test_Login.py -v --html=./results.html
 ```
+
+## Screenshots
+
+<img src="docs/pycharm.png">
+
+<img src="docs/report.png">
