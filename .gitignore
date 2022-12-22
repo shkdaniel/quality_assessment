@@ -1,0 +1,11 @@
+/tests/geckodriver.log
+/geckodriver.log
+/venv/
+/.pytest_cache/
+/tests/.pytest_cache/
+/tests/chrome-data/
+/tests/firefox-data/
+/assets/
+/chrome-data/
+/firefox-data/
+/results.html
